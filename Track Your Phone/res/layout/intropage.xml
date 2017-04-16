@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#50351a"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   <TextView
+           android:id="@+id/text_intro"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="USER GUIDE"
+		   android:layout_gravity="center_horizontal"
+		   android:textSize="20dp"
+		   android:textStyle="bold"
+		   android:textColor="#E30022"
+           >
+    </TextView>
+    
+   <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View>
+   
+   <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#8DB600"  >
+        </View>
+        
+   <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View>
+   
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="Please fill in your details in the sign-up page.">
+        
+    </TextView>
+    
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="You need the username and password once you sign-up for the app.">
+        
+    </TextView>
+    
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="In the phone no. section , you need to provide an alternate phone number where you will receive your password in case you forget it.">
+        
+    </TextView>
+    
+     <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="In case you lost your password , you will still need your username to retrieve it.">
+        
+    </TextView>
+    
+     <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="In no case you can get your username . So don't loose it.">
+        
+    </TextView>
+    
+ <!--     <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#068FFF"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="Thank u !!!">
+        
+    </TextView>
+    
+    --> 
+
+  <!--   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="350dp" >
+       </View> 
+       
+     </LinearLayout>
+    
+     -->
+    
+       <Button
+           android:id="@+id/first_time"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Lets Get Started"
+           android:layout_gravity="center_horizontal"
+           android:textColor="#FBCEB1">
+          </Button>
+
+</LinearLayout>
+</ScrollView>

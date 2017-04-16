@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#50351a"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   <TextView
+           android:id="@+id/text_intro"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="HELP"
+		   android:layout_gravity="center_horizontal"
+		   android:textSize="20dp"
+		   android:textStyle="bold"
+		   android:textColor="#E30022"
+           >
+    </TextView>
+    
+   <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View>
+   
+   <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#8DB600"  >
+        </View>
+        
+   <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View>
+   
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="Using 'Track Your Phone', you can get the exact location of your phone by just sending a text message">
+        
+    </TextView>
+    
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="You can store 3 numbers in the app . When you send a message 'Track' from any of the 3 numbers to your phone , You will receive a message giving the exact location of your phone">
+        
+    </TextView>
+    
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="Each time you send a message as explained above , you will get the latest location of your phone">
+        
+    </TextView>
+    
+     <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="This can help you trace your phone in case you loose it or if it has been stolen">
+        
+    </TextView>
+    
+     <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="In case your phone has been stolen and the person has changed the sim card , a message will be send to all the 3 numbers indicating the new sim information and from the message sender number will be the new number">
+        
+    </TextView>
+    
+     <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A3C1AD"
+    android:textSize="15dp"
+    android:padding="12dip"
+    android:text="You just need to send a message 'Track' to the new number and its location will be sent to you via an sms.">
+        
+    </TextView>
+    
+</LinearLayout>
+</ScrollView>

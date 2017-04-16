@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4682B4"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+     <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="20dp" >
+       </View> 
+       
+     </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <TextView
+           android:id="@+id/text_sign_up_page"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="SIGN UP"
+		   android:layout_gravity="center_horizontal"
+		   android:textSize="20dp"
+		   android:textStyle="bold"
+		   android:textColor="#00FFFF"
+           >
+           </TextView> 
+        
+        </LinearLayout>
+        
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:layout_gravity="center">
+       
+        
+       <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"  >
+        </View> 
+       
+       </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:layout_gravity="center">
+       
+       <EditText
+           android:id="@+id/editText_name"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:hint="Name"
+           android:ems="100"
+           android:inputType="text"
+           android:maxLength="15"
+           android:textColor="#000000" >
+           
+       </EditText>
+       
+      </LinearLayout>
+      
+     <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout>
+        
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:orientation="horizontal"
+       android:layout_gravity="center">
+       
+       <EditText
+           android:id="@+id/editText_username"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:inputType="text"
+           android:hint="Username     (max 15 char)"
+           android:maxLength="15"
+           android:ems="100"
+           android:textColor="#000000"
+           >
+           
+       </EditText>
+       
+      </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout> 
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp">
+            
+       <EditText
+           android:id="@+id/editText_password"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:ems="100"
+           android:inputType="textPassword"
+           android:maxLength="15"
+           android:hint="Password  (max 15 char)"
+           android:textColor="#000000"
+           >
+       </EditText> 
+    </LinearLayout>  
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="left"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp">
+
+       <EditText
+           android:id="@+id/editText_con_password"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="100"
+           android:layout_gravity="center"
+           android:inputType="textPassword"
+           android:maxLength="15"
+           android:hint="Confirm Password"
+           android:textColor="#000000"
+           >
+       </EditText> 
+    </LinearLayout>  
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:orientation="horizontal"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="15dp">
+       
+      <TextView
+          android:id="@+id/textView_exp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textColor="#000000"
+          android:text="Please enter your alternate phone number to receive your lost password">
+          
+      </TextView>
+          
+        
+      </LinearLayout>
+        
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout>   
+    
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:orientation="horizontal"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp">
+       
+       <EditText
+           android:id="@+id/editText_phone_no"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="100"
+           android:layout_gravity="center"
+           android:hint="+91	(10 digit Phone Number)"
+           android:inputType="phone"
+           android:maxLength="13"
+           android:textColor="#000000" >
+           
+       </EditText>
+       
+      </LinearLayout>
+        
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       
+       <View
+            android:layout_width="1dp"
+            android:layout_height="10dp" >
+       </View> 
+       
+     </LinearLayout>   
+    
+     <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:orientation="horizontal"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       >
+       
+        <Button
+           android:id="@+id/button_sign_up"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Proceed"
+           android:layout_gravity="center"
+           android:layout_weight="1">
+           
+       </Button>       
+     </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
